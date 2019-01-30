@@ -1,8 +1,8 @@
 blw163:
   webservices:
-    oracleTaskServiceUrl: http://${SOASUITEHOSTNAME}:8888/integration/services/TaskService/TaskServicePort
-    oracleTaskQueryServiceUrl: http://${SOASUITEHOSTNAME}:8888/integration/services/TaskQueryService/TaskQueryService
-    bpmwFairExceptionSafeUrl: http://${SOASUITEHOSTNAME}:8888/bpmw-fair-1.100/ExceptionSafeSLSB
+    oracleTaskServiceUrl: https://${SOASUITEHOSTNAME}/integration/services/TaskService/TaskServicePort
+    oracleTaskQueryServiceUrl: https://${SOASUITEHOSTNAME}/integration/services/TaskQueryService/TaskQueryService
+    bpmwFairExceptionSafeUrl: https://${SOASUITEHOSTNAME}/bpmw-fair-1.100/ExceptionSafeSLSB
   externaltask:
     timeout: 10
   assignment:
