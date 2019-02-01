@@ -6,7 +6,7 @@ blw163:
   externaltask:
     timeout: 10
   assignment:
-    group: Team2.3
+    group: Essen Team1
 spring:
   datasource:
     jdbc-url: ${DATASOURCE_URL}
